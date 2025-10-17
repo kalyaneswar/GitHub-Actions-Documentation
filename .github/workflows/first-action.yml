@@ -1,1 +1,14 @@
-
+name: First workflow
+# when to run the workflow
+# workflow_dispatch allows manual triggering from the Actions tab
+on: workflow_dispatch
+# defining the jobs to run
+jobs:
+  first-job:
+  # the type of machine to run the job on
+    runs-on: ubuntu-latest
+    steps:
+      - name: First step
+        run: echo "This is my first GitHub Actions workflow!"
+      - name: Second step
+        run: echo "This is the second step of my first workflow!"

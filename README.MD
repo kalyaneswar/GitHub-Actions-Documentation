@@ -221,3 +221,7 @@ jobs:
 ✅ **Keep workflows small and reusable** to maintain clarity and modularity.  
 ✅ **Reuse logic** using **composite actions** or **reusable workflows** for DRY (Don’t Repeat Yourself) design.  
 ⚠️ **Each job runs on a fresh runner** — files don’t persist between jobs. Use **artifacts** to share files or results across jobs.
+
+---
+![GitHub Actions Diagram](Images/githubactions.png)
+---
